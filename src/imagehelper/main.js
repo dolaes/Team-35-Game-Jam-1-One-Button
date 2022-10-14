@@ -1,7 +1,7 @@
-title = "image time";
+title = "image helper";
 
 description = `
-anime :)
+anime :) tap to change picture
 `;
 
 characters = [

@@ -195,11 +195,11 @@ class Song {
 }
 
 const songs = [
- //   new Song("songs/amamichi", "Otokaze - Amamichi (UnLock-) [Light Hard].osu"),
- //   new Song("songs/dadada", "Hige Driver join. SELEN - Dadadadadadadadadada (spboxer3) [INSANE].osu"),
+    new Song("songs/amamichi", "Otokaze - Amamichi (UnLock-) [Light Hard].osu"),
+    new Song("songs/dadada", "Hige Driver join. SELEN - Dadadadadadadadadada (spboxer3) [INSANE].osu"),
     new Song("songs/golddust", "DJ Fresh - Gold Dust (galvenize) [Insane].osu"),
- //   new Song("songs/highscore", "Panda Eyes & Teminite - Highscore (Fort) [Game Over].osu"),
- //   new Song("songs/marblesoda", "Shawn Wasabi - Marble Soda (Len) [Narcissu's Insane].osu")
+    new Song("songs/highscore", "Panda Eyes & Teminite - Highscore (Fort) [Game Over].osu"),
+    new Song("songs/marblesoda", "Shawn Wasabi - Marble Soda (Len) [Narcissu's Insane].osu")
 ];
 const song = songs[Math.floor(Math.random() * songs.length)];
 

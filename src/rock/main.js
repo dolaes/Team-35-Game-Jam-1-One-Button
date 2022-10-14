@@ -1,6 +1,7 @@
-title = "";
+title = "ROCK";
 
 description = `
+Tap to launch your grappling hook.
 `;
 
 characters = [

@@ -1,7 +1,7 @@
 title = "Orbit";
 
 description = `
-Orbiting Objects
+Orbit Objects
 `;
 
 characters = [];
@@ -13,7 +13,8 @@ const G = {
 
 options = {
     viewSize: { x: G.WIDTH, y: G.HEIGHT },
-    isShowingScore: false
+    isShowingScore: false,
+    theme: "shape"
 };
 
 function update() {

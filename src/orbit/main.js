@@ -14,7 +14,9 @@ const G = {
 options = {
     viewSize: { x: G.WIDTH, y: G.HEIGHT },
     isShowingScore: false,
-    theme: "shape"
+    theme: "shape",
+    isCapturing: true,
+    isCapturingGameCanvasOnly: true,
 };
 
 function update() {

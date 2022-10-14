@@ -9,7 +9,8 @@ characters = [];
 options = {
   theme: "shapeDark",
   isPlayingBgm: true,
-  isReplayEnabled: true,
+  isCapturing: true,
+  isCapturingGameCanvasOnly: true,
   seed: 420,
 };
 

@@ -1,8 +1,9 @@
-title = "circle";
+title = "Orbit";
 
 description = `
-Circle
+Orbiting Objects
 `;
+
 characters = [];
 
 const G = {
@@ -12,8 +13,7 @@ const G = {
 
 options = {
     viewSize: { x: G.WIDTH, y: G.HEIGHT },
-    isShowingScore: false,
-    theme: "shape"
+    isShowingScore: false
 };
 
 function update() {
